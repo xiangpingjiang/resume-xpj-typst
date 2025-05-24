@@ -4,70 +4,77 @@
 // to customize this template and discover how it works.
 #show: project.with(
   title: "Resume-ng",
-  author: (name: "冯开宇"),
+  author: (name: "向平江"),
   contacts: 
     (
-      "+86 188-888-8888",
-       link("mailto:loveress01@outlook.com", "loveress01@outlook.com"),  
-       link("https://blog.fkynjyq.com", "blog.fkynjyq.com"),
-       link("https://github.com", "github.com/fky2015"),  
+      "+86 18991699014",
+      link("mailto:825717414@qq.com", "825717414@qq.com"),
+      link("https://github.com/xiangpingjiang", "github.com/xiangpingjiang"),
+      "中国 杭州",
     )
 )
 
 #resume-section("教育经历")
 #resume-education(
-  university: "北京理工大学",
-  degree: "学术型硕士研究生",
-  school: "网络空间安全，网络空间安全学院",
-  start: "2021-09",
-  end: "2024-06"
+  university: "IMT Atlantique（布列塔尼国立高等电信）",
+  degree: "工程型硕士研究生",
+  school: "计算机科学",
+  start: "2019-09",
+  end: "2022-09"
 )[
-*GPA: 3.62/4.0*，主要研究方向为#strong("拜占庭共识算法")，在分布式系统领域方面有一定的研究和工程经验。*2024年应届生*。
+*法国前三工程师学校*，主要研究研究云计算、虚拟化、分布式系统。获国家留学基金委CSC奖学金（2018-2019）。 期间在法国电信和 Synapse Medicine 进行了为期一年多的实习。
 ]
 
 #resume-education(
-  university: "北京理工大学",
-  degree: "工学学士",
-  school: "计算机科学与技术，计算机学院",
-  start: "2017-09",
-  end: "2021-06"
+  university: "西安电子科技大学", 
+   degree: "工学学士",
+  school: "通信工程",
+  start: "2015-09",
+  end: "2019-06"
 )[
-*GPA: 3.7/4.0(专业前 3\%)*，获学业奖学金多次，全国大学生 XYZ 竞赛二等奖（2次），ZYX 竞赛三等奖。
+*课程平均成绩88/100（专业前15%）*
 ]
 
-#resume-section[技术能力]
-- *语言*: 编程不受特定语言限制。常用 Rust, Golang, Python,C++； 熟悉 C, #text(fill: gray, "JavaScript")；了解 Lua, Java, #text(fill: gray, "TypeScript")。
-- *工作流*: Linux, Shell, (Neo)Vim, Git, GitHub, GitLab.
-- *其他*: 有容器化技术的实践经验，熟悉 Kubernetes 的使用。
-
+#resume-section("技术能力")
+- *编程语言*：Golang/Java/Python
+- *云原生*：Docker/Kubernetes/Operator开发
+- *AI*：LLM Agent构建/RAG技术应用。MCP 协议 与 A2A 协议
 #resume-section[工作经历]
 #resume-work(
-  company: "北京 ABCD 有限公司",
-  duty: "后端开发实习生/XXXX",
-  start: "2020.10",
-  end: "2021.03",
+  company: "蚂蚁集团",
+  duty: "PAAS平台工程师",
+  start: "2022-12",
+  end: "2023-01"
 )[
-- *独立负责XXX业务后端的设计、开发、测试和部署。*通过 FaaS、Kafka 等平台实现站内信模板渲染服务。向上游提供 SDK 代码，增加或升级了多种离线和在线逻辑。完成了业务对站内信的多样需求。
-- *参与 XXX 的需求分析，系统技术方案设计；完成需求开发、灰度测试、上线和监控。*
+- 负责支付宝小程序云托管平台公网测试域名和云调用开发，以及自研k8s workload监控与稳定性保障
 ]
+#resume-work(
+  company: "蚂蚁集团",
+  duty: "百宝箱后端开发",
+  start: "2023-01",
+  end: "present"
+)[
+- 数据库模块和长期记忆模块设计和研发
+]
+
 
 #resume-section[项目经历]
 
 #resume-project(
-  title: "BusTub 基于 C++ 的简易单机数据库",
-  duty: "算法设计与实现 / CMU 15-445 课程",
+  title: "百宝箱数据库模块设计与实现",
+  duty: "整个模块的技术设计与实现以及稳定性保障",
 )[
-  - 实现了基于可扩展哈希表和LRU-K的内存池管理。实现了可并发的B+树，支持乐观加锁的读写操作。
-  - 采用火山模型实现了查询、修改、连接、聚合等查询执行器，对部分查询进行了改写与下推。
-  - 采用 2PL 进行并发控制，支持死锁处理、多种隔离级别、表锁和行锁。
-  - 对数据库系统有了基本的认识和实践。
+  - 实现了真实物理表和 OB JSON 虚拟表两种存储方式，支持多种数据类型。
+  - 通过 SQL 改写技术实现用户维度的表隔离。
+  - 支持模型通过 Functoncall 方式调用数据表工具；以及在工作流中用户编写自定义SQL执行。
+  - 落地大模型生成 text2sql 技术，并进行 text2sql 的评测和效果演进。 
 ]
 
 #resume-project(
-  title: "Multi-Raft 分布式 KV 存储系统",
-  duty: "算法设计与实现 / MIT 6.824 课程",
+  title: "百宝箱数据库模块设计与实现",
+  duty: "整个模块的技术设计与实现以及稳定性保障",
 )[
-  - 实现了 Raft 协议的选举、日志复制、持久化、日志压缩等基本功能。
+  - 把开源项目 mem0 集成到百宝箱中，作为长期记忆模块的记忆生成的主要链路。
   - 基于 Raft 协议实现了满足线性一致性的 KV 数据库。
   - 采用 Multi-Raft 架构，支持数据分片，分片迁移，分片垃圾回收和分片迁移时读写优化。
   - 对分布式系统的设计考量有了更多的认识。
@@ -94,8 +101,7 @@
   - 负责了什么什么；完成了怎样的结果。
 ]
 
-#resume-section[个人总结]
-
-- 本人乐观开朗、在校成绩优异、自驱能力强，具有良好的沟通能力和团队合作精神。
-- 可以使用英语进行工作交流（六级成绩 XXX），平时有阅读英文书籍和口语练习的习惯。
-- 有六年 Linux 使用经验，较为丰富的软件开发经验、开源项目贡献和维护经验。善于技术写作，持续关注互联网技术发展。
+#resume-section("其他信息")
+- 语言能力：英语（雅思6.5/CET6 500+）、法语（精通）
+- 校园经历：担任China Club主席，组织中国文化传播活动
+- 技术博客：link("https://example.com", "个人技术博客")
