@@ -9,8 +9,10 @@
     (
       "+86 18991699014",
       link("mailto:825717414@qq.com", "825717414@qq.com"),
+      link("https://xpjblog.netlify.app/", "xpjblog.netlify.app"),
       link("https://github.com/xiangpingjiang", "github.com/xiangpingjiang"),
       "中国 杭州",
+
     )
 )
 
@@ -92,4 +94,4 @@
 #resume-section("其他信息")
 - 语言能力：英语（雅思6.5/CET6 500+）、法语（精通）
 - 校园经历：担任China Club主席，组织中国文化传播活动
-- 技术博客：link("https://example.com", "个人技术博客")
+- 技术博客：善于技术写作，持续关注互联网技术发展。 个人技术博客： #link("https://xpjblog.netlify.app/")[https://xpjblog.netlify.app/]
