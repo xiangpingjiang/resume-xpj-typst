@@ -63,7 +63,7 @@
 #resume-section[项目经历]
 
 #resume-project(
-  title: "多agent协同系统，通用只智能体",
+  title: "多agent协同系统，类manus通用智能体",
   duty: "不同文件类型的上传和消费",
   start: "2025-05",
   end: "present"
