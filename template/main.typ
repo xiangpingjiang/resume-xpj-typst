@@ -52,7 +52,7 @@
 ]
 #resume-work(
   company: "蚂蚁集团",
-  duty: "百宝箱后端开发",
+  duty: "LLM agent应用开发",
   start: "2023-01",
   end: "present"
 )[
