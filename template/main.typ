@@ -64,12 +64,13 @@
 
 #resume-project(
   title: "多agent协同系统，类manus通用智能体",
-  duty: "不同文件类型的上传和消费",
+  duty: "用户电脑computer的运维",
   start: "2025-05",
   end: "present"
 )[
+  - 用户电脑 computer 的分配和运维以及电脑上 mcp servers 的部署运维。 使用 fastmcp 构建用户电脑 mcp server proxy。
+  - 用户 computers 上 mcp servers 协议升级。 SSE -> streamable http
   - 不同文件类型的上传和消费，大文件的总结和信息检索。
-  - 图片理解和OCR mcp 工具的构建。
 ]
 
 
@@ -132,5 +133,5 @@
 
 #resume-section("其他信息")
 - 语言能力：英语（雅思6.5/CET6 500+）、法语（精通）
-- 校园经历：担任China Club主席，组织中国文化传播活动
+// - 校园经历：担任China Club主席，组织中国文化传播活动
 - 技术博客：善于技术写作，持续关注互联网技术发展。 个人技术博客： #link("https://xpjblog.netlify.app/")[https://xpjblog.netlify.app/]
