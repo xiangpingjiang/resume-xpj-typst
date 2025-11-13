@@ -46,17 +46,17 @@
   company: "蚂蚁集团",
   duty: "PAAS平台工程师",
   start: "2022-12",
-  end: "2023-01"
+  end: "2024-01"
 )[
 - 负责支付宝小程序云托管平台公网测试域名和云调用开发，以及自研k8s workload监控与稳定性保障
 ]
 #resume-work(
   company: "蚂蚁集团",
   duty: "LLM agent应用开发",
-  start: "2023-01",
+  start: "2024-01",
   end: "present"
 )[
-- 数据库模块和长期记忆模块设计和研发
+- 数据库模块和长期记忆模块设计和研发， Agent 沙箱系统的设计和构建。
 ]
 
 
@@ -64,13 +64,13 @@
 
 #resume-project(
   title: "多agent协同系统，类manus通用智能体",
-  duty: "用户电脑computer的运维",
+  duty: "agent sandbox 的设计和实现",
   start: "2025-05",
   end: "present"
 )[
   - 用户电脑 computer 的分配和运维以及电脑上 mcp servers 的部署运维。 使用 fastmcp 构建用户电脑 mcp server proxy。
   - 用户 computers 上 mcp servers 协议升级。 SSE -> streamable http
-  - 不同文件类型的上传和消费，大文件的总结和信息检索。
+  - 会话维度用户电脑的分配和回收机制设计和实现。
 ]
 
 
@@ -87,7 +87,7 @@
 ]
 
 #resume-project(
-  title: "百宝箱数据库模块设计与实现",
+  title: "百宝箱长期记忆模块设计与实现",
   duty: "整个模块的技术设计与实现以及稳定性保障",
   start: "2024-12",
   end: "present"
