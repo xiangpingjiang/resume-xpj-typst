@@ -54,7 +54,7 @@
   company: "蚂蚁集团",
   duty: "LLM agent应用开发",
   start: "2024-01",
-  end: "present"
+  end: "2025-11"
 )[
 - 数据库模块和长期记忆模块设计和研发， Agent 沙箱系统的设计和构建。
 ]
@@ -66,7 +66,7 @@
   title: "多agent协同系统，类manus通用智能体",
   duty: "agent sandbox 的设计和实现",
   start: "2025-05",
-  end: "present"
+  end: "2025-11"
 )[
   - 用户电脑 computer 的分配和运维以及电脑上 mcp servers 的部署运维。 使用 fastmcp 构建用户电脑 mcp server proxy。
   - 用户 computers 上 mcp servers 协议升级。 SSE -> streamable http
@@ -78,7 +78,7 @@
   title: "百宝箱数据库模块设计与实现",
   duty: "整个模块的技术设计与实现以及稳定性保障",
   start: "2024-08",
-  end: "present"
+  end: "2025-11"
 )[
   - 实现了真实物理表和 OB JSON 虚拟表两种存储方式，支持多种数据类型。
   - 通过 SQL 改写技术实现用户维度的表隔离。
@@ -90,7 +90,7 @@
   title: "百宝箱长期记忆模块设计与实现",
   duty: "整个模块的技术设计与实现以及稳定性保障",
   start: "2024-12",
-  end: "present"
+  end: "2025-11"
 )[
   - 把开源项目 mem0 集成到百宝箱中，作为长期记忆模块的记忆生成的主要链路。
   - 采用消息队列和 faas 系统实现了长期记忆的异步生成和存储。
