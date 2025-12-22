@@ -26,7 +26,7 @@
 )[
 *法国前三工程师学校*，主要研究研究云计算、虚拟化、分布式系统。获国家留学基金委CSC奖学金（2018-2019）。 期间在法国电信和 Synapse Medicine 进行了为期一年多的实习。
 ]
-
+jk
 #resume-education(
   university: "西安电子科技大学", 
    degree: "工学学士",
@@ -40,6 +40,7 @@
 #resume-section("技术能力")
 - *编程语言*：Golang/Java/Python
 - *云原生*：Docker/Kubernetes/Operator开发
+- *框架*：Go-zero/Kitex/Gin
 - *AI*：LLM Agent构建/RAG技术应用。MCP 协议 与 A2A 协议
 #resume-section[工作经历]
 #resume-work(
@@ -129,7 +130,50 @@
 )[
   - 针对服务下pod数量和pod状态，设计并实现了数据回流的controller。
 ]
+#resume-section[开源贡献]
 
+#resume-project(
+  title: "mem0",
+  duty: "Universal memory layer for AI Agents  AI智能体的通用记忆层",
+)[
+  - pr: https://github.com/mem0ai/mem0/pull/2201  
+  - 记忆整理过程中对检索后的忆进行去重
+
+]
+
+
+#resume-project(
+  title: "openkruise",
+  duty: "Automated management of large-scale applications on Kubernetes",
+)[
+  - pr: https://github.com/openkruise/kruise/pull/1324
+  - 修复了 cloneset  在  updatestrategy paused == true时，暂停升级
+  - pr: https://github.com/openkruise/kruise/pull/1457
+  - 修复一个 e2e 单元测试
+]
+
+#resume-project(
+  title: "knative/serving",
+  duty: "Kubernetes-based, scale-to-zero, request-driven compute",
+)[
+  - pr: https://github.com/knative/serving/pull/14565
+  - wait.PollUntilContextTimeout 替换 wait.PollImmediate（deprecated）
+  - pr: https://github.com/openkruise/kruise/pull/1457
+  - 在性能测试中增加 SLA 标准
+]
+
+
+#resume-project(
+  title: "knative/eventing",
+  duty: "Event-driven application platform for Kubernetes",
+)[
+  - https://github.com/knative/eventing/pull/7338
+  - Support auto generation of Subscriptions identity service account and expose in AuthStatus
+  - https://github.com/knative/eventing/pull/7417
+  - Refactor the AuthStatus Logic in Eventing OIDC Feature Track
+  - https://github.com/knative/eventing/pull/7499
+  - fix mt-broker-ingress watch Broker
+]
 
 #resume-section("其他信息")
 - 语言能力：英语（雅思6.5/CET6 500+）、法语（精通）
