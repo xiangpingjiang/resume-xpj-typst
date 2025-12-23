@@ -26,7 +26,7 @@
 )[
 *法国前三工程师学校*，主要研究研究云计算、虚拟化、分布式系统。获国家留学基金委CSC奖学金（2018-2019）。 期间在法国电信和 Synapse Medicine 进行了为期一年多的实习。
 ]
-jk
+
 #resume-education(
   university: "西安电子科技大学", 
    degree: "工学学士",
