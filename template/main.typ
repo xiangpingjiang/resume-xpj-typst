@@ -174,7 +174,17 @@
   - https://github.com/knative/eventing/pull/7499
   - fix mt-broker-ingress watch Broker
 ]
-
+#resume-project(
+  title: "nixpkgs",
+  duty: "Nix Packages collection & NixOS",
+)[
+  - https://github.com/NixOS/nixpkgs/pull/483949
+  - 添加 aliyunpan 包进入 nixpkgs
+  - https://github.com/NixOS/nixpkgs/pull/483894
+  - metacubexd 包修复一个打包的bug
+  - https://github.com/xiangpingjiang/nixos-config
+  - Nix/Nixpkgs/NixOS 组织成员，日常使用 nixos 系统。
+]
 #resume-section("其他信息")
 - 语言能力：英语（雅思6.5/CET6 500+）、法语（精通）
 // - 校园经历：担任China Club主席，组织中国文化传播活动
