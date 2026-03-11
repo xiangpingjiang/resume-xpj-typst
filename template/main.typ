@@ -43,9 +43,20 @@
 #resume-section("技术能力")
 - *编程语言*：Golang（精通）、 Python（熟练）、Java（熟练）
 - *云原生*：Docker、Kubernetes、Operator开发、Knative、OpenKruise
+- *Devops*：Prometheus Operator、Grafana、 GitLab CI、Terraform、Nix、Ansible
 - *框架*：Go-zero、Kitex、Gin
 - *AI*：LLM Agent构建、RAG技术应用、MCP协议、A2A协议、 Claude Skills
 #resume-section("工作经历")
+#resume-work(
+  company: "Synapse Medicine",
+  duty: "Devops 工程师",
+  start: "2020.10",
+  end: "2021.08"
+)[
+- 负责 GitLab CI/CD 流水线的设计、开发与维护，落地 ChatOps 实践，提升研发发布效率与协作透明度。
+- 使用 Terraform 进行云服务器资源的编排、管理与成本优化，保障基础设施即代码（IaC）规范落地。
+- 负责 Kubernetes 集群运维与稳定性保障，持续优化集群性能与调度策略，确保微服务高可用运行。
+]
 #resume-work(
   company: "蚂蚁集团",
   duty: "PAAS平台工程师",
@@ -53,7 +64,7 @@
   end: "2024.01"
 )[
 - 负责支付宝小程序云托管平台公网测试域名、云调用模块开发
-- 自研K8s workload监控体系，保障平台稳定性，核心指标可用性提升至99.99%
+- 搭建K8s workload监控体系，保障平台稳定性，核心指标可用性提升至99.99%
 ]
 #resume-work(
   company: "蚂蚁集团",
